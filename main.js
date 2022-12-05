@@ -40,7 +40,7 @@ function getData() {
     fetch(`https://suppliers-stats.wildberries.ru/api/v1/supplier/reportDetailByPeriod?key=${APIKey}&dateFrom=${startDate}&limit=100000&dateTo=${endDate}&rrdid=${currentRrdid}`).then(function(response) {
         response.json().then(function(json) {
             if(json==null){ 
-                sortJson()
+                // sortJson()
                 console.log(JSON.stringify(jsonString))
                 // console.log(JSON.stringify(jsonStringRBKZ), 'BY-KZ')
                 return json
