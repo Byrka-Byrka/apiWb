@@ -1,0 +1,14 @@
+.button{
+    background-color: #fff;
+    border: solid rgb(75, 73, 73) 2px;
+    border-radius: 5px;
+    color: rgb(75, 73, 73);
+    position: absolute;
+    top: 30%;
+}
+.dateInput{
+    margin: 3px 15px 0 0 ;
+}
+p{
+    margin: 20px 15px 0 0;
+}
